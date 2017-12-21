@@ -1,0 +1,12 @@
+<!-- pages/movie/movie.wxml -->
+<view class='movie_search' >
+  <image class='movie_search_img' src='https://cloud-minapp-7991.cloud.ifanrusercontent.com/1eQA2nnNHLSWxaDb.png'></image>
+  <input class='movie_search_input' placeholder='釜山行、匆匆那年、海洋奇缘' bindblur='InputSearch'></input>
+</view>
+<view class='movie_wrapper'>
+<block>
+    <movie_list_component movie-detail="{{hot_showing}}" movie-title="{{title[0]}}" more-movie="{{moreMovieUrl[0]}}"/>
+    <movie_list_component movie-detail="{{coming_soon}}" movie-title="{{title[1]}}" more-movie="{{moreMovieUrl[1]}}"/>
+    <movie_list_component movie-detail="{{top_50}}" movie-title="{{title[2]}}" more-movie="{{moreMovieUrl[2]}}"/>
+    </block>
+</view>

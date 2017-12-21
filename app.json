@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/new/new",
+    "pages/new/new_detail/new_detail",
+    "pages/logs/logs",
+    "pages/movie/movie",
+    "pages/movie/more_movie/more_movie"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "方晓辉私人影院",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#ccc",
+    "backgroundText": "fang"
+  },
+  "debug": true,
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "#206bf9",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/new/new",
+        "text": "博客",
+        "iconPath": "./img/yuedu.png",
+        "selectedIconPath": "./img/yuedu_hl.png"
+      },
+      {
+        "pagePath": "pages/movie/movie",
+        "text": "电影",
+        "iconPath": "./img/dianying.png",
+        "selectedIconPath": "./img/dianying_hl.png"
+      }
+    ]
+  }
+}

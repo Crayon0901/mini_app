@@ -1,0 +1,10 @@
+<!--component/star.wxml-->
+<view class="wrapper">
+  <slot></slot>
+  <view class='star_view'>
+  <block wx:for="{{5}}">
+      <image class='star'  src="{{index+1<=movieDetail.score_star?'https://cloud-minapp-7991.cloud.ifanrusercontent.com/1eQA2neZHYyfQeVz.png':'https://cloud-minapp-7991.cloud.ifanrusercontent.com/1eQA2nEVAqINSFir.png'}}"></image>
+  </block>
+    <text>{{movieDetail.score}}</text>
+  </view>
+</view>

@@ -1,0 +1,21 @@
+/* component/movie_item/movie_item.wxss */
+.movie_item{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 230rpx;
+}
+.movie_item text{
+  font-size: 32rpx;
+  box-sizing: border-box;
+  line-height: 32rpx;
+  padding: 20rpx 0rpx;
+  width: 100%;
+  white-space: nowrap;
+  overflow:hidden; 
+  text-overflow:ellipsis;
+}
+.movie_item_img{
+  width: 230rpx;
+  height: 350rpx;
+}

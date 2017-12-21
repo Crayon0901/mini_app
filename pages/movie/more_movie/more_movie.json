@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "movie_item_component": "../../../component/movie_item/movie_item"
+  },
+  "onReachBottomDistance":50,
+  "enablePullDownRefresh":true
+}

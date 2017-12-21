@@ -1,0 +1,31 @@
+<!--index.wxml-->
+<view class="wrap">
+  <view class='userinfo-view'>
+    <image id='index_img' src='https://cloud-minapp-7991.cloud.ifanrusercontent.com/1ePhosEfcEZcYQmX.JPG!/crop/600x600a200a500'></image>
+    <text class='UserName'>This Is My Wife</text>
+  </view>
+  <view class='userinfo-view'>
+    <button bindtap='SkipPage'>开启我的小程序之旅</button>
+  </view>
+  <!-- <text space="nbsp">我 的文本是否可选</text>
+<map id="map" longitude="113.324520" latitude="23.099994" scale="14" controls="{{controls}}" bindcontroltap="controltap" markers="{{markers}}" bindmarkertap="markertap" polyline="{{polyline}}" bindregionchange="regionchange" show-location style="width: 100%; height: 300px;"></map>
+ <video style='width:100%;' src='http://113.96.35.11/music.qqvideo.tc.qq.com/Ap168zLic9TjeNGcuSJLZiYY2vWAcBiy7oK1B6_wSWUg/t001962cjk2.p302.1.mp4?sdtfrom=v1070&type=mp4&vkey=CF94F6AC81A704B42180477ABAE04B20DE05802A015B27ACAFB844E90EB2300B1D556BFABF02B12D38642C2E45A7E1F81875C0D9942457C56B9222467FE1DF5D356CEF8C4806B69BD8FF1D0A3CCBD2F0BDF7BA44B4F42A48F00C775B9A975BC5D647D908BD24A6EFEA5F413DECA246D7&platform=70202&br=78&fmt=hd&sp=0&charge=0&vip=0&guid=9F00EE85FB0F8730EC4ED5180FF99D7D&ocid=407246252&locid=0674ffe6-cc8d-43c5-bb60-767c3f2d0d2e&size=18194631&ocid=2600473772' danmu-list="{{danmulist}}" id='myVideo' enable-danmu danmu-btn controls bindtimeupdate="bindvideo"></video> 
+<view class="container" style='display: flex;flex-direction: row;align-items: center;'>
+<label>输入弹幕内容</label>
+<input bindblur="bindInputBlur" placeholder="输入弹幕内容" type="text" style='border:1px solid #ccc'></input>
+</view>
+  <audio id='temp_Audio' src="{{muscisrc}}" controls loop name="{{musciname}}" author="{{musciauthor}}" poster="{{musicposter}}"></audio>
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+   <view class="usermotto">
+    <text class="user-motto" style='color:red'>{{motto}}</text>
+  </view> 
+  <view>
+    <button bindtap="getdata">获取歌曲</button>
+  </view> -->
+</view>

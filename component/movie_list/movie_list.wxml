@@ -1,0 +1,13 @@
+<!-- pages/movie/movie.wxml -->
+  <view class='movie_hot_showing'>
+    <view class='movie_hot_showing_top'>
+      <text>{{movieTitle}}</text>
+      <view>
+        <text class='more_text' catchtap='handleMoreMovie'>更多</text>
+        <image src='/img/arrow-right.png' class='more_img'></image>
+      </view>
+    </view>
+    <movie_item_component movie-detail="{{movieDetail[0]}}"/>
+    <movie_item_component movie-detail="{{movieDetail[1]}}"/>
+    <movie_item_component movie-detail="{{movieDetail[2]}}"/>
+  </view>

@@ -1,0 +1,26 @@
+<template name="news_list">
+  <view class='news_list' name="news_list">
+    <view class='news_list_title'>
+      <view>
+        <image src="{{uesr_img}}"></image>
+        <text class='news_list_title_text'>{{user_name}}</text>
+      </view>
+      <text class='news_list_title_date'>{{date}}</text>
+    </view>
+    <view data-id="{{id}}" catchtap='handleTapToDetail'>
+      <view class='news_list_img'>
+        <view class='news_list_img_text'>
+          {{content_title}}
+        </view>
+        <image src="{{content_img}}"></image>
+      </view>
+      <view class='news_list_content'>{{content_text}}</view>
+    </view>
+    <view class='news_list_footer'>
+      <image src='https://cloud-minapp-7991.cloud.ifanrusercontent.com/1eQA2nEVAqINSFir.png'></image>
+      <text>{{collect_num}}</text>
+      <image src='https://cloud-minapp-7991.cloud.ifanrusercontent.com/1eQA2nRnGijBcMIu.png'></image>
+      <text>{{comment_num}}</text>
+    </view>
+  </view>
+</template>

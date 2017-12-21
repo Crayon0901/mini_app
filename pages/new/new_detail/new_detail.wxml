@@ -1,0 +1,27 @@
+<!--pages/new/news_detail/new_detail.wxml-->
+<view class='new_detail'>
+  <view class='new_detail_head'>
+    <image class='detail_img' src='{{content_img}}' data-img="{{content_img}}" catchtap='previewImg'></image>
+    <image class='detail_music_btn'  catchtap='handlemusic' src='{{IsMusicing?"https://cloud-minapp-7991.cloud.ifanrusercontent.com/1eQpxllivgLPaGdr.png":"https://cloud-minapp-7991.cloud.ifanrusercontent.com/1eQpxlouKJhSYwST.png"}}'></image>
+  </view>
+  <view class='new_detail_subhead'>
+    <view>
+      <image class='user_img' src='{{uesr_img}}'></image>
+      <text class='user_name'>{{user_name}}</text>
+    </view>
+    <view>
+      <text class='date'>发表于:{{date}}</text>
+    </view>
+  </view>
+  <view class='new_detail_title'>
+    <text>{{content_title}}</text>
+  </view>
+  <view class='new_detail_tool'>
+    <view class='strip'></view>
+    <image catchtap='handlechangecollect' src="{{collect_state===0?'https://cloud-minapp-7991.cloud.ifanrusercontent.com/1eQA2nQVcJLbQmAY.png':'https://cloud-minapp-7991.cloud.ifanrusercontent.com/1eQA2nqoRruCPnFq.png'}}"></image>
+    <image catchtap='handlechangeshare' src="{{share_state===0?'https://cloud-minapp-7991.cloud.ifanrusercontent.com/1eQA2nNmXiuOQOaC.png':'https://cloud-minapp-7991.cloud.ifanrusercontent.com/1eQA2nnocOVMZTUN.png'}}" style='margin-left:20rpx'></image>
+  </view>
+  <view class='new_detail_content'>
+    <text>{{content_text}}</text>
+  </view>
+</view>

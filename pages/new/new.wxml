@@ -1,0 +1,30 @@
+<!--pages/demo/demo.wxml-->
+<import src="../../template/news_list" />
+<swiper id='slideshow' indicator-dots autoplay interval="2000" duration="500">
+  <swiper-item>
+    <image src='https://cloud-minapp-7991.cloud.ifanrusercontent.com/1ePlv4ZOUODENyox.JPG'></image>
+  </swiper-item>
+  <swiper-item>
+    <image src='https://cloud-minapp-7991.cloud.ifanrusercontent.com/1ePlv4ouTInAOUjq.JPG!/crop/1024x1280a800a400'></image>
+  </swiper-item>
+  <swiper-item>
+    <image src='https://cloud-minapp-7991.cloud.ifanrusercontent.com/1ePlv4dHKNBlGNRU.JPG!/crop/1024x1280a300a900'></image>
+  </swiper-item>
+  <swiper-item>
+    <image src='https://cloud-minapp-7991.cloud.ifanrusercontent.com/1ePlv4zTdsCtnYqw.JPG'></image>
+  </swiper-item>
+  <swiper-item>
+    <image src='https://cloud-minapp-7991.cloud.ifanrusercontent.com/1ePlv4FvAOdIYSEi.JPG'></image>
+  </swiper-item>
+  <swiper-item>
+    <image src='https://cloud-minapp-7991.cloud.ifanrusercontent.com/1ePlv4hEYiyuFVqM.JPG'></image>
+  </swiper-item>
+  <swiper-item>
+    <image src='https://cloud-minapp-7991.cloud.ifanrusercontent.com/1ePlv4aGpkQbTQSw.JPG!/crop/720x960a50a200'></image>
+  </swiper-item>
+</swiper>
+<block wx:for="{{array}}">
+  <view data-id="{{item.id}}">
+    <template is="news_list" data="{{...item}}" />
+  </view>
+</block>

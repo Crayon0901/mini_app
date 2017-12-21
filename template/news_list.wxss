@@ -1,0 +1,95 @@
+
+.news_list{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: #fff;
+  margin: 10px 0px;
+  border-bottom: 1px solid #ededed;
+}
+.news_list_title{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10rpx;
+  box-sizing: border-box;
+}
+.news_list_title image{
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.news_list_title .news_list_title_text{
+  vertical-align: middle;
+  font-size: 36rpx;
+  margin-left: 20rpx;
+  font-weight: bold;
+}
+.news_list_title .news_list_title_date{
+  vertical-align: middle;
+  margin-right:10rpx; 
+  font-size: 28rpx;
+  color: #bbb;
+}
+.news_list_img{
+  width: 100%;
+  position: relative;
+}
+.news_list_img image{
+  width: 100%;
+  height: 400rpx;
+}
+.news_list_img .news_list_img_text{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0,0,0,0.7);
+  height: 50rpx;
+  line-height: 50rpx;
+  text-overflow:ellipsis;
+  white-space:nowrap; 
+  overflow:hidden; 
+  color: #fff;
+}
+.news_list_img .news_list_img_text text{
+  line-height: 50rpx;
+}
+.news_list_content{
+  width: 100%;
+  padding: 10rpx 20rpx;
+  height: 130rpx;
+  word-break:break-all;
+  text-overflow:ellipsis;
+  overflow:hidden;
+  font-size: 28rpx;
+  line-height: 40rpx;
+  letter-spacing:5rpx;
+  box-sizing: border-box;
+  font-family: arial, "Microsoft Yahei", 微软雅黑;
+  text-indent: 50rpx;
+}
+.news_list_footer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10rpx 20rpx;
+}
+.news_list_footer image{
+  height: 30rpx;
+  width: 30rpx;
+  vertical-align: middle;
+  padding-right:10rpx;
+}
+.news_list_footer text{
+  padding-right:20rpx;
+  vertical-align: middle;
+  font-size: 24rpx;
+}

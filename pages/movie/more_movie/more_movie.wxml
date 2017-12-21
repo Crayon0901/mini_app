@@ -1,0 +1,6 @@
+<!--pages/movie/more_movie/more_movie.wxml-->
+<view class='movie_hot_showing'>
+  <block wx:for="{{more_movie}}">
+      <movie_item_component movie-detail="{{item}}" class='item-movie'  />
+  </block>
+</view>

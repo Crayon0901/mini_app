@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "movie_list_component": "../../component/movie_list/movie_list"
+  },
+  "navigationBarBackgroundColor":"#405f80"
+}

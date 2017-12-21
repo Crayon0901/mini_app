@@ -1,0 +1,17 @@
+/* pages/movie/more_movie/more_movie.wxss */
+.movie_hot_showing{
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  margin-bottom: 20rpx;
+  padding: 0rpx 13rpx;
+}
+.item-movie{
+  box-sizing: border-box;
+  padding: 0 7rpx 10px 7rpx;
+}

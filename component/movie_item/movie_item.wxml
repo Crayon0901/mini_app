@@ -1,0 +1,7 @@
+<!--component/movie_item/movie_item.wxml-->
+<star_component movie-detail="{{movieDetail}}">
+  <view class='movie_item'>
+    <image class='movie_item_img' src="{{movieDetail.poster_url}}"></image>
+    <text>{{movieDetail.name}}</text>
+  </view>
+</star_component>
